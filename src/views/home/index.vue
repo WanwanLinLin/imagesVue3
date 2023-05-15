@@ -11,7 +11,7 @@
                 <HomeNew />
                 <!-- 人气推荐 -->
                 <HomeHot />
-                <!-- 热门品牌 -->
+                <!-- 武器装备 -->
                 <HomeBrand />
                 <!-- 产品区块 -->
                 <HomeProduct />

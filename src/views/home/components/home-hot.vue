@@ -1,6 +1,6 @@
 <template>
     <div class="home-new">
-        <HomePanel title="人气好物" subTitle="爆款推荐 不容错过">
+        <HomePanel title="人气场景" subTitle="爆款推荐 不容错过">
             <template #right><XtxMore path="/" /></template>
             <!-- 面板内容 -->
             <div ref="target" style="position: relative;height: 406px;">

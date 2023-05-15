@@ -45,7 +45,7 @@ const {y} = useWindowScroll()
   .logo {
     width: 200px;
     height: 80px;
-    background: url(../assets/images/logo.png) no-repeat  right 2px;
+    background: url('http://127.0.0.1:5679/pictures/assets/images/logo.png') no-repeat  right 2px;
     background-size: 160px auto;
   }
   .right {

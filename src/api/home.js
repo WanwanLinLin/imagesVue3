@@ -11,12 +11,12 @@ export const findBanner = () => {
     return request_dev('v1/home/banner', 'get')
 }
 
-// 新鲜好物
+// 热门角色
 export const findNew = () => {
     return request('home/new', 'get')
 }
 
-// 人气好物
+// 人气场景
 export const findHot = () => {
     return request('home/hot', 'get')
 }

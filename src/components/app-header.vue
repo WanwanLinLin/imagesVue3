@@ -36,7 +36,7 @@ import AppHeaderNav from './app-header-nav.vue';
                 height: 132px;
                 width: 100%;
                 text-indent: -9999px;
-                background: url('@/assets/images/logo.png') no-repeat center 18px/contain;
+                background: url('http://127.0.0.1:5679/pictures/assets/images/logo.png') no-repeat center 18px/contain;
             }
         }
         .search {

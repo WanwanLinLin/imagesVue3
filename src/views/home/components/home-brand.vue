@@ -1,6 +1,6 @@
 <template>
     <div class="home-brand">
-        <HomePanel title="热门品牌" subTitle="国际经典 品质保证">
+        <HomePanel title="高分武器装备" subTitle="国际经典 品质保证">
             <template #right>
                 <a @click="toggle(-1)" :class="{disable: index === 0}" href="javascript:;" class="iconfont icon-angle-left prev"></a>
                 <a @click="toggle(1)" :class="{disable: index === 1}" href="javascript:;" class="iconfont icon-angle-right next"></a>
