@@ -5,26 +5,26 @@
             <div class="container">
                 <dl>
                     <dt>客户服务</dt>
-                    <dd><i class="iconfont icon-kefu"></i>在线客服</dd>
-                    <dd><i class="iconfont icon-question"></i>问题反馈</dd>
+                    <dd><i class="iconfont icon-kefu"></i>没有客服</dd>
+                    <dd><i class="iconfont icon-question"></i>不得反馈</dd>
                 </dl>
                 <dl>
                     <dt>关于我们</dt>
-                    <dd><i class="iconfont icon-weixin"></i>公众号</dd>
-                    <dd><i class="iconfont icon-weibo"></i>微博</dd>
+                    <dd><i class="iconfont icon-weixin"></i>QQ</dd>
+                    <dd><i class="iconfont icon-weibo"></i>贴吧</dd>
                 </dl>
                 <dl>
-                    <dt>下载APP</dt>
+                    <dt>加入战斗</dt>
                     <dd class="qrcode"><img src="@/assets/images/qrcode.jpg" alt=""></dd>
                     <dd class="download">
                         <span>扫描二维码</span>
-                        <span>立即下载APP</span>
-                        <a href="#">下载页面</a>
+                        <span>立即加入战斗</span>
+                        <a href="#">登录页面</a>
                     </dd>
                 </dl>
                 <dl>
                     <dt>服务热线</dt>
-                    <dd class="hotline">400-0000-000<small>周一至周日 8:00-18:00</small> </dd>
+                    <dd class="hotline">800-820-8820<small>周日至周日 8:00-8:01</small> </dd>
                 </dl>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <nav class="app-topnav">
     <div class="container">
       <ul>
-        <li><a href="javascript:;"><i class="iconfont icon-user"></i>胡汉三</a></li>
+        <li><a href="javascript:;"><i class="iconfont icon-user"></i>无名小卒</a></li>
         <li><a href="javascript:;">退出登录</a></li>
         <li><a href="javascript:;">登录战斗系统</a></li>
         <li><a href="javascript:;">战斗成员注册</a></li>

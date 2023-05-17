@@ -1,6 +1,6 @@
 <template>
     <div class="home-new">
-        <HomePanel title="（广告）" subTitle="爆款推荐 不容错过">
+        <HomePanel title="人气场景" subTitle="瑰丽壮观，气势磅礴！">
             <template #right><XtxMore path="/" /></template>
             <!-- 面板内容 -->
             <div ref="target" style="position: relative;height: 406px;">
@@ -9,34 +9,33 @@
                         <li v-for="item in goods" :key="item.id">
                             <router-link :to="`/product/${item.id}`">
                                 <img :src="item.picture" alt="">
-                                <p class="name">{{item.title}}</p>
-                                <p class="desc">{{item.alt}}</p>
+                                <p class="name ellipsis">{{item.name}}</p>
+                                <p class="price">{{item.price}}</p>
                             </router-link>
                         </li>
                     </ul>
                     <HomeSkeleton v-else bg="#f0f9f4" />
                 </transition>
             </div>
-
         </HomePanel>
     </div>
 </template>
 
 <script>
 import { ref } from 'vue';
-import { findHot } from '@/api/home.js'
+import { hotScene } from '@/api/home.js'
 import HomePanel from './home-panel.vue';
 import HomeSkeleton from './home-skeleton.vue';
-import { useLazyData } from '@/hooks/index.js'
+import { useLazyData } from '../../../hooks';
 export default {
-    name: "HomeHot",
+    name: "HomeScenes",
     components: { HomePanel, HomeSkeleton },
     setup() {
-        // findHot().then(data => {
+        // const goods = ref([]);
+        // findNew().then(data => {
         //     goods.value = data.result;
         // });
-        // 调用懒加载方法
-        const {target ,result} = useLazyData(findHot)
+        const { target, result } = useLazyData(hotScene)
         return { goods: result, target };
     },
 }
@@ -64,9 +63,8 @@ export default {
             padding: 12px 30px 0 30px;
             text-align: center;
         }
-        .desc {
-                color: #999;
-                font-size: 18px;
+        .price {
+                color: #CF4444;
             }
     }
 }
